@@ -1,0 +1,41 @@
+:root {
+    --primary-color: #0d4676;
+
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+}
+
+* {
+    box-sizing: border-box;
+    outline: none !important;
+}
+
+body {
+    margin: 0;
+}
+
+app-root {
+    display: flex;
+    width: 100%;
+    min-width: 320px;
+    min-height: 100vh;
+    background-color: #F9FBFD;
+    color: #16212C;
+    font-size: 15px;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 320px;
+    min-height: 100vh;
+    background-color: #F9FBFD;
+    color: #16212C;
+    font-size: 15px;
+}
