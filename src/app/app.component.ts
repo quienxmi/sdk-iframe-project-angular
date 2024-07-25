@@ -36,13 +36,16 @@ export class AppComponent {
       logs: true
     });
 
-    this.iframeProject.error((res:any) => {
-      console.log('error:', res);
+    this.iframeProject.subscribeError((res:any) => {
+      console.log('Iframe error:', res);
       alert(res.message);
     });
 
-    this.iframeProject.modals((res:any) => {
-      console.log('Modal message:', res);
+    this.iframeProject.subscribeEvent((res:any) => {
+      console.log('Iframe event:', res);
+      if (res.data.event === 'PROJECT_CREATE') {
+        alert(`Your order was successfully created! Your CODE is "${res.data.code}"`)
+      }
     });
   }
 

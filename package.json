@@ -1,6 +1,6 @@
 {
   "name": "qxm-sdk-iframe-angular",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -21,7 +21,7 @@
     "@angular/platform-server": "^18.1.0",
     "@angular/router": "^18.1.0",
     "@angular/ssr": "^18.1.1",
-    "@quienxmi/sdk-iframe-project": "^1.0.6",
+    "@quienxmi/sdk-iframe-project": "^1.0.7",
     "express": "^4.18.2",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
